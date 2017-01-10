@@ -1,0 +1,157 @@
+
+	*{
+		margin:0;
+		padding:0;
+	}
+
+	body{
+		background:#bf9e78;
+		font-family:Verdana, Arial, sans-serif;
+		color:#333;
+		font-size:14px;
+		}
+		
+	h1,h2,h3,h4,h5,h6 {
+		font-weight:bold;
+		color:#2b7fa4;
+		margin:10px 0 20px 0;
+		}
+		
+	#wrapper{
+		width:940px;
+		margin: 10px auto;
+		border:3px solid #888;
+		border-radius:10px auto;
+		background:#ffeedd;
+		}
+		
+	header h1 {
+		float:left;
+		font-size:50px;
+		margin:0 0 18px 10px;
+		}
+		
+	header h2 {
+		float:right;
+		font-size:16px;
+		margin:34 30 18px 0px;
+		font-style:italic;
+		}
+		
+	nav {
+		background:#a66b2a;
+		font-size:16px;
+		font-weight:bold;
+		height:50px;
+		margin-top:-5px;
+		}
+			
+	nav ul {
+		list-style:none;
+		padding:17px 0 0 20px;
+		}
+	
+	nav a {
+		float:left;
+		text-decoration:none;
+		padding:0px 15px;
+		color:#f8eed5;
+		}	
+		
+	nav a:hover {
+		text-decoration:underline;
+		}
+		
+	main {
+		overflow:hidden;
+		}
+		
+	content {
+		float:left;
+		width:640px;
+		margin-left:20px;
+		}
+		
+	article {
+		background:#ff0;
+		padding:10px;
+		margin-top:20px;
+		}
+		
+	img.levo {
+		float:left;
+		margin:0 3px 3px 0;
+		box-shadow:3px 3px 2px #777;
+		width:200px;
+		}	
+		
+	img.desno {
+		float:right;
+		margin:0 0 3px 3px;
+		box-shadow:3px 3px 2px #777;
+		width:200px;
+		}
+				
+	aside {
+		float:right;
+		width:220px;
+		}
+		
+	aside h3 {
+		font-size:18px;
+		text-shadow:2px 2px 2px #ddd;
+		}
+	
+	aside ul {
+		list-style:square;
+		color:#bbb;
+		margin:15px 0 15px 25px;
+		}	
+
+	aside il {
+			line-height:18px;
+			padding:2px 0px;
+			}
+			
+	aside a:hover {
+			color:#333;
+			}	
+	
+	footer {
+			clear:both;
+			background:#a66b2a;
+			}
+				
+	footer p {
+			text-align:center;
+			color:#fff;
+			padding:5px;
+			}				
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+			
+
+		
+		
+		
+		
