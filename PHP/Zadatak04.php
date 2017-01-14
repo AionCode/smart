@@ -9,7 +9,7 @@
 		<?php 
 		
 			// Provera da li je broj pozitivan
-			echo "Zadati broj je 16";
+			echo "Zadati broj je 15";
 			
 			$a = 15 ; 
 			

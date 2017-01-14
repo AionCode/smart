@@ -19,11 +19,11 @@
 			
 			$o =  $a + $b + $c;		
 			
-			// URADI $p =  $a * $ha / 2  $b * $hb / 2  $c * $hc / 2;
+			$p =  $a * $ha / 2;
 			
 			echo "Obim je " . $o . "<br>";
 			
-			//echo "Površina je " . $p . "<br>";
+			echo "Površina je " . $p . "<br>";
 			
 			echo "<hr>";
 				
