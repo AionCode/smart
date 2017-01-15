@@ -17,9 +17,9 @@
 			
 			// string
 			$ime = "Aleksandar";
-			$prezime = "Stojanović";
+			$prezime = "Stojanovic";
 			
-			echo "<p>" . $ime . " " .$prezime . "</p>";
+			echo "<p>" . $ime . " " . $prezime . "</p>";
 			
 			// boolean
 			$istina = true;

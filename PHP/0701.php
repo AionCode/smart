@@ -24,9 +24,9 @@
 				$b = 2;
 				
 				if ($a > $b) {
-					echo "A je vece";
+						echo "A je vece";
 					} else {
-						echo "A nije vece";
+						echo "B je vece";
 					}
 					
 					echo "<hr>";
@@ -38,7 +38,7 @@
 				//  kada imamo "===" znaci da proverava da li su jednaki i da li su istog tipa, a ako imamo "!=" onda proveravamo da li su razliciti
 				
 				if ($a === $b) {
-					echo "Jednako";
+						echo "Jednako";
 					} else {
 						echo "Nejednako";
 					}

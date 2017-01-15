@@ -48,7 +48,7 @@
 			echo "Rezultat " . $a . "<br>"; // ovde PISE "a" ne "c" zato je reultat 6
 			
 			
-			// dodaj jedan - i ovde ce biti 7 jer smo vec dodali gore 1 na "a" 
+			// dodaj jedan - ovde ce biti 7 jer smo vec dodali gore 1 na "a" 
 			
 			$a++;
 			echo "Rezultat " . $a . "<br>";		
