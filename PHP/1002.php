@@ -9,7 +9,7 @@
 		<?php 
 		//Izracunati prosecnu vrednost prvih 15 prirodnih brojeva
 		$s = 0;
-		$n = 45;
+		$n = 15;
 		for ($i = 1; $i<= $n; $i++){
 				$s = $s + $i;
 		}
