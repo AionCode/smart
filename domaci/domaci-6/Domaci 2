@@ -1,0 +1,24 @@
+1. Za unete vrednosti a, b i c prikazati ih u rastucem redosledu.
+
+2. Student moze da izadje na ispit ako je :
+a. Ako bar na jednom od dva kolokvijuma ima vise od 50 bodova.
+b. Ako na oba kolokvijuma ima vise od 50 bodova.
+(Preko switcha uradi)
+
+3. Imamo 2 promenljive: boje i ime
+U promenljivu ime unesemo nase ime a u pormenljivu boje unecemo ime boje. U zavisnosti od imena boje npr. green imacemo case green:
+u html gore napravimo 4 ugradjene klase za 4 drugacije boje 
+a echo ce uvek biti nase ime
+
+4. Napraviti program za resavanje kvadratne jednacine.
+
+a**2x + bx+c =0
+
+ono x1/2 = -b +- koren iz b**2 -4ac sve to kroz / 2a
+
+
+ koren je --- sqrt()
+ ili ono sto je u zagradi napisemo ()**0.5
+ 
+5. Napraviti tablicu deljenja sa 4 pozadine u bilo kojoj bolji
+
