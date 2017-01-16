@@ -16,16 +16,13 @@
 		if ($a > $b){
 			if ($a > $c){
 				echo $a;
-		} else {
+			}	else{
 				echo $c;
-			   }
-
+			}
 		} else {
-
 			if ($b > $c) {
 				echo $b;
-
-		} else {
+			}else{
 				echo $c;
 			}
 		} 

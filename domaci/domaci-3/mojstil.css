@@ -1,8 +1,6 @@
 
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhaina|Boogaloo|Chewy|Luckiest+Guy|Patrick+Hand|Press+Start+2P');
-
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+@import url('https://fonts.googleapis.com/css?family=Pacifico|Sigmar+One|VT323');
 
 	*{
 		margin:0;
@@ -11,7 +9,9 @@
 
 	body{
 		background:#000;
-    	font-family: 'Press Start 2P', cursive;
+		font-family: 'VT323', monospace;
+		font-family: 'Pacifico', cursive;
+		font-family: 'Sigmar One', cursive;
 		color:#bababa;
 		font-size:14px;
 		}

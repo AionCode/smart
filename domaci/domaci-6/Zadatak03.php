@@ -17,23 +17,23 @@
 		<?php 
 		// Imamo 2 promenljive: boje i ime. U promenljivu ime unesemo nase ime a u pormenljivu boje unecemo ime boje
 		$ime = "Alexandar";
-		$boja = "green";
+		$boja = "red";
 		
 		switch ($boja){
 			case "red":
-				echo "". $ime ."<div class='b1'>";
+				echo "". $ime . "<div class='b1'>";
 			break;
 
 			case "green":
-				echo "". $ime ."<div class='b2'>";
+				echo "". $ime . "<div class='b2'>";
 			break;
 
 			case "yellow":
-				echo "". $ime ."<div class='b3'>";
+				echo "". $ime . "<div class='b3'>";
 			break;
 
 			case "blue":
-				echo "". $ime ."<div class='b4'>";
+				echo "". $ime . "<div class='b4'>";
 			break;
 			
 			default:

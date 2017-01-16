@@ -1,7 +1,7 @@
 <html>
 
 	<head>
-		<title>Zadatak 1</title>
+		<title>Zadatak 3</title>
 				<style>
 
 				.b1 {color:#FF0000;}
@@ -21,19 +21,19 @@
 		
 		switch ($boja){
 			case "red":
-				echo "". $ime ."<div class='b1'>";
+				echo "". $ime . "<div class='b1'>";
 			break;
 
 			case "green":
-				echo "". $ime ."<div class='b2'>";
+				echo "". $ime . "<div class='b2'>";
 			break;
 
 			case "yellow":
-				echo "". $ime ."<div class='b3'>";
+				echo "". $ime . "<div class='b3'>";
 			break;
 
 			case "blue":
-				echo "". $ime ."<div class='b4'>";
+				echo "". $ime . "<div class='b4'>";
 			break;
 			
 			default:

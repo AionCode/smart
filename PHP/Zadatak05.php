@@ -23,15 +23,34 @@
 		<?php 
 		// Napraviti tablicu deljenja sa 4 pozadine u bilo kojoj bolji
 		
-		for ($i = 1; $i<=10; $i++){
+		for ($i = 10; $i<=1; $i++){
 			
-			if($i % 2 == 0){
-				echo "<div class='k b1'>";
-			} else {
-				echo "<div class='k b2'>";
+			if($i % 4 == 0){
+			switch ($boja){
+				
+			case "red":
+				echo "". $ime . "<div class='b1'>";
+			break;
+
+			case "green":
+				echo "". $ime . "<div class='b2'>";
+			break;
+
+			case "yellow":
+				echo "". $ime . "<div class='b3'>";
+			break;
+
+			case "blue":
+				echo "". $ime . "<div class='b4'>";
+			break;
+			
+			default:
+			echo "Error";
 			}
 			
-			for ($j=1;$j<=10;$j++){
+		  }
+			
+			for ($j=10;$j<=1;$j++){
 				echo $i . "/" . $j . " = " . $i / $j . "<br>";
 			}
 			echo "</div>";
