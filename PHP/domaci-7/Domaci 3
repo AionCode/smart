@@ -1,0 +1,7 @@
+1. Treba pronaci najmanju razliku aritmeticke sredine niza i niza. Na kojoj poziciji se on nalazi (uraditi kroz primer 1202.php).
+
+2. Na osnovu primera 1211.php napraviti svoj niz. U okviru $tim promenljive Najmanje 4 ili 5 promenljivih a nizova 3 ili 4.
+
+3. Niz koji napravimo da izlista samo po jednu vrednost koju zadamo (po primeru 1211.php) Sa foreach petljom da procita sve to u njoj i  petlju i uslov da izadje je da ispise nzp. neko prezime.
+
+Sve do ovde i sa ovim ce biti na testu u petak.
