@@ -1,0 +1,284 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+    font-family: GoT;
+    src: url(font/GameofThrones.woff2),url(font/GameofThrones.eot), url(font/GameofThrones.woff), url(font/GameofThrones.svg), url(font/GameofThrones.otf), url(font/GameofThrones.ttf);
+		font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&subset=cyrillic,latin-ext');
+
+body{
+	background: url("img/background.jpg") no-repeat center center fixed;
+	background-size: cover;
+	max-width:100%;
+	max-height:100%;
+}
+
+h1, h2, h3, h4, h5 {
+	color: #fff;
+	font-family: GoT;
+	font-style: bold;
+	margin: 10px 0 20px 0;
+}
+
+p, input, button{
+	color: #fff;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+}
+
+a:link{
+	text-decoration:none;
+}
+
+a:visited{
+	color: #a0a0f3;
+}
+
+a:hover {
+	color: #ff0000;
+	cursor: url(http://cur.cursors-4u.net/games/gam-10/gam948.ani), url(http://cur.cursors-4u.net/games/gam-10/gam948.png), progress !important;
+}
+
+a:active{
+	color: #f00;
+}
+	
+ol li {
+	color: #fff;
+}
+
+#wrapper{
+  width: 100%;
+	max-width: 1130px;
+	min-width: 720px;
+	margin: 0 auto;
+	background: #111;
+	border: 5px solid #323436;
+	border-radius: 10px;
+}
+
+header{
+	width:100%;
+	height:20%;
+	margin-top:-30px;
+	background: url("img/bf.gif") no-repeat center fixed;
+	background-size: cover;
+}
+
+header img{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+	max-width:50%;
+	height:100%;
+}
+
+header h1 {
+  text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+  font-size: 30px;
+  
+}
+
+nav {
+	background: #000;
+  font-size: 16px;
+  font-weight: bold;
+	font-family: GoT;
+  height: 50px;
+	margin-top: -5px;
+  border-top: 3px solid #323436;
+	border-bottom: 3px solid #323436;
+	overflow: hidden;
+	
+}
+
+nav table{
+	width:50%;
+  height:50%;
+	margin: 0 auto;
+	
+}
+
+nav tr {
+	margin: 0;
+}
+
+nav td{
+	padding: 10px;
+	margin: 0;
+  list-style: none;
+	font-size: 25px;
+	
+}
+
+nav td:nth-child(1n+1):hover {
+	background: url("img/f2.gif");
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	overflow:	hidden;
+	border: 5px solid #000;
+}
+
+nav a {
+  float: left;
+  text-decoration: none;
+  padding: 0px 15px;
+  color: #bbb	;
+	
+}
+
+nav a:hover {
+  text-decoration: underline;
+	
+	color: #069AF5;
+	background: url("img/fire.gif");
+	margin: 0 auto;
+	/*cursor: url("img/21.gif"), auto;
+	cursor: url(http://cur.cursors-4u.net/games/gam-10/gam948.ani), url(http://cur.cursors-4u.net/games/gam-10/gam948.png), progress !important;
+	*/
+}
+
+main {
+	height: 100%;
+	background: #111;
+	overflow:hidden;
+}
+
+content{
+	width:65%;
+	height:inherit;
+	float:left;
+	padding: 1%;
+	margin: 1% 1%;
+	border-right: 5px solid #323436;
+}
+
+article {
+	min-height: 500px;
+	margin: 1% 2% 3% 2%;
+	padding: 2% 5%;
+	border: 3px solid #323436;
+	border-radius: 20px;
+}
+
+article h2 {
+	font-size: 40px;
+	border-bottom: 3px dotted #484848;
+}
+
+aside{
+	width:26%;
+	height: 100%;
+	float: right;
+	margin: 2%;
+	padding: 1% 0%;
+}
+
+aside h3{
+  font-size: 18px;
+}
+
+aside ul {
+  list-style: square;
+  color: #bbb;
+  margin: -15px 0 15px 25px;
+} 
+
+.books {
+	width: 80%;
+  height: 100%;
+	margin: 0 auto;
+}
+
+table img {
+	height: 250px;
+	width: 150px;
+	padding: 5%;
+	margin: 5%;
+}
+
+.books td {
+	height: 350px;
+	width: 550px;
+	padding: 5%;
+	margin: 5%;
+}
+
+img{
+	display: block;
+	width: 90%;
+	margin: 3% auto;
+}
+
+.left {
+	display: block;
+	float: left;
+	width: 25%;
+	margin: 0 2%;
+	overflow: auto;
+}
+.right {
+	display: block;
+	float: right;
+	width: 25%;
+	margin: 0 2%;
+	overflow: auto;
+}
+
+iframe{
+	display: block;
+	margin: 5% auto;
+	width: 90%;
+}
+
+hr {
+	border: 2px solid #323436;
+	margin: 5% auto;
+}
+
+form {
+	width: 80%;
+	height: 100%;
+	margin: 2% auto 20% auto;
+}
+
+input, textarea {
+	width: 90%;
+	margin: 2% 5% -2% 5%;
+	color: #000;
+	resize: none;
+}
+
+button {
+	margin: 2% 5% 5% 5%;
+	width: 20%;
+	float: right;
+	border: 1px solid #000;
+	border-radius: 10px;
+	background: #323436;
+	padding: 2%;	
+	font-weight: bold;
+	text-shadow: 2px 2px 2px #000;
+}
+
+footer{
+	clear: both;
+	width: 100%;
+	height: 8%;
+	float: left;
+	text-align: center;
+	background: #323436;
+	font-weight: bold;
+	font-family: GoT;
+}
+
+

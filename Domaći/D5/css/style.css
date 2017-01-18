@@ -1,0 +1,170 @@
+
+/* imported font */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&subset=cyrillic,latin-ext');
+@import url('https://fonts.googleapis.com/css?family=VT323&subset=latin-ext,vietnamese');
+
+/* define margin and padding */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/* define body */
+body {
+	max-width:100%;
+	max-height:100%;
+	background: url('../img/phpcover.jpg') center center fixed;
+	background-size: cover;	
+}
+
+/* define headings */
+h1, h2, h3, h4, h5 {
+	color: #000;
+	font-style: bold;
+	font-family: 'VT323', monospace;
+	margin: 10px 0 20px 0;
+}
+
+h1 {
+	text-align: center;
+	font-size: 150px;
+	padding: 5%;
+	color: #009700;
+	
+}
+
+/* define header */
+header{
+	width: 100%;
+	height: 20%;
+	margin-top:-30px;
+	background: url('../img/php.jpg') center center fixed;
+	background-size: cover;	
+}
+
+/* define navigation */
+nav {
+	background: #323436;
+  font-weight: bold;
+	height: 50px;
+	margin-top: -5px;
+  border-top: 3px solid #323436;
+	border-bottom: 3px solid #323436;
+	overflow: hidden;
+}
+
+nav table{
+	width: 50%;
+  height: 50%;
+	margin: 0 auto;
+}
+
+nav tr {
+	margin: 0;
+}
+
+nav td{
+	padding: 5px;
+	margin: 2px;
+	width: 50px;
+  list-style: none;
+	font-size: 20px;
+	font-family: 'VT323', monospace;
+	text-align: center;
+}
+
+nav td:nth-child(1n+1):hover {
+	background: #009700;
+	-webkit-background-size: contain;
+	-moz-background-size: contain;
+	-webkit-background-size: contain;
+	overflow:	hidden;
+	border: 1px solid #323436;
+	border-radius: 20px;
+}
+
+nav a {
+  float: left;
+  text-decoration: none;
+  padding: 0px 15px;
+  color: #bbb	;
+}
+
+nav a:hover {
+  text-decoration: underline;
+	font-family: 'VT323', monospace;
+	color: #000;
+	margin: 0 auto;
+}
+
+/* define paragraf */
+p {
+	color: #f0f4f5;
+	font-family: "Playfair Display", serif;
+	font-size: 16px;
+}
+
+#wrapper{
+  width: 100%;
+	max-width: 1130px;
+	min-width: 720px;
+	margin: 0 auto;
+	border: 5px solid #323436;
+	background: #000097;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+main {
+	height: 100%;
+	overflow: hidden;
+}
+
+content{
+	opacity: 1;
+	width:80%;
+	height:inherit;
+	background: #165EFF;
+	float: left;
+	padding: 1%;
+	margin: 0 10% 0 10%;
+}
+
+article {
+	opacity: 1;
+	min-height: 500px;
+	margin: 1% 2% 3% 2%;
+	padding: 2% 5%;
+	border: 3px solid #323436;
+	border-radius: 20px;
+}
+
+article h2 {
+	font-size: 40px;
+	border-bottom: 3px dotted #484848;
+}
+
+img {
+	display: block;
+	width: 25%;
+	margin: 5% auto;
+	overflow: auto;
+}
+
+b, i {
+	color: #000;
+	font-weight: bold;
+}
+ 
+/* define footer */  
+footer{
+	clear: both;
+	width: 100%;
+	height: 8%;
+	float: left;
+	text-align: center;
+	background: #323436;
+	font-weight: bold;
+}
+
+
