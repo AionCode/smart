@@ -1,0 +1,7 @@
+Domaci 8:
+Z1. Sortirati niz da bude u rastucemen redosledu.
+Z2. Obrnuti 2 promenjive bez uvodjenja 3ce dodatne promenjive.
+Z3. Niz iz domaceg 6 prikazazi u tabeli kroz jedan foreach.
+Z4. Iz niza 1301.php prebrojati koliko ima elemata: tekstualnih, brojcanih i nizova.
+
+Oficijalni sajt www.php.net
