@@ -47,15 +47,14 @@
 			 ),
 
 		);
-			print $tim [4] ["prezime"];
-			echo "<br>";
-			print $tim [0] ["ime"];
-			echo "<br>";
-			print $tim [1] ["pol"];
-			echo "<br>";
-			print $tim [3] ["starost"];
-			echo "<br>";
+		
+			//Zadatak 03 - Niz iz Zadatka 2 neka izlista samo po jednu zadatu vrednost.
+			$n = count($tim);
 
+             for ($i=0; $i<$n; $i++){
+                echo $tim[$i]["ime"] . "<br>";
+              }
+              	echo "<hr>";
 
 		
 		?>
