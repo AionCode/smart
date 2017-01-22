@@ -1,0 +1,16 @@
+1. Za uneti neki string proveriti da li je palindrom ?
+
+Kada zamenis poslednji ili prvi sa "o" jeste polindrom
+
+	$s = "oko";
+		echo $s . "<br>";
+		$s1 = substr_replace($s,"o",2,2);
+		echo  $s1 . "<br>";
+
+		treba for petlja da prodje kroz taj niz (oko npr.)
+		a if da ispituje 
+
+		if echo oko 
+		jeste 
+		else 
+		nije
