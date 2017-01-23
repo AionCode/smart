@@ -1,0 +1,16 @@
+1. Nparavi formular unese se 
+
+a:
+b:
+
+submit
+
+saberu se te vrednosti i ispise se rezultat
+
+
+2. Unese se 
+ Broj: od 1 do 15
+Kada odemo 
+Submit
+da ispise brojeve do tog broja sa njim  npr. ako unesemo 5.
+1,2,3,4,5

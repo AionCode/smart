@@ -18,8 +18,6 @@
 
 		echo "<hr>";
 
-		// Ovako ce izgledati: tata, mama
-
 
 
 		//Ovo nam ispisuje sve vrednosti ali ce is ispisati kao po koji je broj u nizu => ono sto pise u nizu, bilo to ime ili br itd.
@@ -27,9 +25,8 @@
 			echo $k . " => " . $v . "<br>";
 		}
 
-		// Ovako ce izgledati:
-		// moj => tata  
-		// tvoja => mama
+
+
 
 
 

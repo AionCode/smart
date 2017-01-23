@@ -41,7 +41,7 @@
 		$ime = "Aca";
 
 		function poz4($p) {
-			global $ime; // Global nam dozvoljava da pozovemo promenljive koje nisu u bloku funkcije, oiz4 je funkcija ne promenljiva, promenljiva je unutar nje!
+			global $ime; // Global nam dozvoljava da pozovemo promenljive koje nisu u bloku funkcije
 			echo "<h3> Dobar dan " . $p . " " . $ime . "! </h3>";
 		}
 

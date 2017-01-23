@@ -5,13 +5,6 @@
 	</head>
 	
 	<body>
-				<table border=1>
-			<tr>
-				<th>Ime</th>
-				<th>Prezime</th>
-				<th>Pol</th>
-				<th>Starost</th>
-			</tr>
 
 		<?php 
 
@@ -49,7 +42,18 @@
 		} 
 
 		echo "<hr>";
-	
+		
+		?>
+
+		<table border=1>
+			<tr>
+				<th>Ime</th>
+				<th>Prezime</th>
+				<th>Pol</th>
+				<th>Starost</th>
+			</tr>
+
+		<?php
 		foreach ($tim as $niz) {
 			echo "<tr>";
 			foreach ($niz as $v) {

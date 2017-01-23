@@ -9,7 +9,7 @@
 		<?php 
 		$b = -321;
 		$nb = abs($b); // abs prebacuje iz negativnog u poz.
-		echo $nb; // funkcija uvek vraca jednu vrednost(to moze biti i niz).
+		echo $nb; // finkcija uvek vraca jednu vrednost(to moze biti i niz).
 		echo "<hr>";
 
 		$niz = array(2,5,78,9);
