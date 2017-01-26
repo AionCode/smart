@@ -1,0 +1,31 @@
+1. Napraviti Digitron
+
+bukvalno pravi digitron
+na sajtu
+
+2. Nabrojati pet stvari
+
+1. visnja
+2. jabuka
+3. kruska
+4. jagoda
+5. paprika
+
+medotodom get 
+
+da se naprave linkovi na kioje kad kliknes menja se, broj 1 sa npr grckim I,
+menja se u velika slova 
+
+3. da imamo npr. <h1>Hello</h1>  get metodom
+
+	<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="get" >
+		<p> nivo naslova </p>
+		<input type="radio" name="nivo" value="1">N1<br>
+		<input type="radio" name="nivo" value="2">N2<br>
+		<input type="radio" name="nivo" value="3">N3<br>
+
+da imamo e linka kad kliknemo 
+h1
+h2
+h3
+
