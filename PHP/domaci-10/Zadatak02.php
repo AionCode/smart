@@ -24,7 +24,6 @@
 
 	<form action="<?php echo $_SERVER['PHP_SELF'] ?>" method="post" >
 
-	<label>Uneti broj:</label>
 	<input type="number" name="broj"><br>
 
 	

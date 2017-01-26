@@ -1,5 +1,13 @@
-<?php
+<?php 
 
+		if ($_POST['broj'] != "" and $_POST['broj2'] != "") {
+
+			echo $_POST["broj"] + $_POST["broj2"] . "<br>";
+
+		} else {
+			echo "Molim vas unesite vrednosti.";
+	  }
+		
 
 ?>
 
@@ -31,11 +39,3 @@
 	</body>
 </html>
 
-<?php
-
-	$z = $_POST['broj'] + $_POST['broj2'];
-	echo $z;
-	echo "<hr>";
-
-
-?>	
