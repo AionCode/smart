@@ -24,7 +24,7 @@ if(empty($_GET['boja2'])){
     <a href="<?php $_SERVER["PHP_SELF"]; ?>?boja=0000ff&boja2=0000ff" >Plava</a><br>
     
     
-    <p style="color:#<?php echo $b2; ?>" >Najlepši grad</p>
+    <p style="color:#<?php echo $b2; ?>" >Najlepsi grad</p>
     
     <a href="<?php $_SERVER["PHP_SELF"]; ?>?boja=ff0000&boja2=ff0000" >Crvena</a><br>
     <a href="<?php $_SERVER["PHP_SELF"]; ?>?boja=00ff00&boja2=00ff00" >Zelena</a><br>

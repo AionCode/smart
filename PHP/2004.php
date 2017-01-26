@@ -28,7 +28,7 @@
 	</head>
 	<body>
 
-    <p class="pasus">Najlepši grad</p>
+    <p class="pasus">Najlepsi grad</p>
     
     <p>Font: 
     <?php
