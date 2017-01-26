@@ -13,7 +13,7 @@ na sajtu
 
 medotodom get 
 
-da se naprave linkovi na kioje kad kliknes menja se, broj 1 sa npr grckim I,
+da se naprave linkovi na koje kad kliknes menja se, broj 1 sa npr grckim I,
 menja se u velika slova 
 
 3. da imamo npr. <h1>Hello</h1>  get metodom
