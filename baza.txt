@@ -4,7 +4,7 @@ id_artikl
 ---------
 
 naziv ( Sporet, Kafe aparat, Ves masina, Busilica, Skije)
-firma ( Simens, Saeco, Bosch, )
+firma ( Simens, Saeco, Bosch, Bosch )
 godina_proizvodnje ( 2008, 2004, )
 
 
