@@ -3,9 +3,9 @@ Artikl
 id_artikl
 ---------
 
-naziv
-firma
-godina_proizvodnje
+naziv ( Sporet, Kafe aparat, Ves masina, Busilica, Skije)
+firma ( Simens, Saeco, Bosch, )
+godina_proizvodnje ( 2008, 2004, )
 
 
 
@@ -17,7 +17,7 @@ Racun
 id_racun
 --------
 
-cena
+cena (130, 80, 110, 60, 50)
 
 
 
